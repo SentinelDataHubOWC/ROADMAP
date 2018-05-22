@@ -10,3 +10,7 @@ OWC 2.0  ROADMAP
 | **2.0.0-RC03**                                                                              |  - Graph component  - Testing   - Notification system (toast)  - Prototype plugin system | Planned   |                           |
 | **2.0.0-RC04**                                                                              |  - Search component                                                                      | Planned   |                           |
 | **2.0.0-RC05**                                                                              |  - Online helper   - Monitoring prototype                                                | Planned   |                           |
+
+# Migration components detailed list
+
+Please refer to this link [https://sentineldatahubowc.github.io/ROADMAP/migration-plan/](https://sentineldatahubowc.github.io/ROADMAP/migration-plan/) to have the complete migration components list.
