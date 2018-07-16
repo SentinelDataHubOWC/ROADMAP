@@ -1,0 +1,1 @@
+(function(){'use strict';const a=window.ShadyCSS.CustomStyleInterface;class b extends HTMLElement{constructor(){super(),this._style=null,a.addCustomStyle(this)}getStyle(){return this._style||(this._style=this.querySelector('style')),this._style}}window.CustomStyle=b,window.customElements.define('custom-style',b)})();

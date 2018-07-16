@@ -1,0 +1,1 @@
+'use strict';import{applyStylePlaceHolder}from'./style-util.js';import{nativeShadow}from'./style-settings.js';let placeholderMap={};const ce=window.customElements;if(ce&&!nativeShadow){const a=ce.define;ce.define=(c,d,e)=>{placeholderMap[c]=applyStylePlaceHolder(c),a.call(ce,c,d,e)}}export default placeholderMap;

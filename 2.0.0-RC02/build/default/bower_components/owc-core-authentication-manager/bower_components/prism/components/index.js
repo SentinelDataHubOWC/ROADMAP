@@ -1,0 +1,1 @@
+var components=require('../components.js');function loadLanguages(a){a||(a=Object.keys(components.languages).filter(function(b){return'meta'!==b})),Array.isArray(a)||(a=[a]),a.forEach(function(b){components.languages[b]&&components.languages[b].require&&loadLanguages(components.languages[b].require),require('./prism-'+b)})}module.exports=loadLanguages;
