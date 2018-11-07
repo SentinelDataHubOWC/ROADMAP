@@ -1,0 +1,1 @@
+import StyleProperties from"../../src/style-properties.js";window.StyleProperties=StyleProperties;

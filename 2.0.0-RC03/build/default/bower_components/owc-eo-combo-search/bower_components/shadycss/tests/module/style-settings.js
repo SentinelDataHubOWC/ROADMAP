@@ -1,0 +1,1 @@
+import*as StyleSettings from"../../src/style-settings.js";window.StyleSettings=StyleSettings;

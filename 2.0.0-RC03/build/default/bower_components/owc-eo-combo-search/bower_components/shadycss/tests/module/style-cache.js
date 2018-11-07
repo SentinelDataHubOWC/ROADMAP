@@ -1,0 +1,1 @@
+import StyleCache from"../../src/style-cache.js";window.StyleCache=StyleCache;

@@ -1,0 +1,1 @@
+import StyleTransformer from"../../src/style-transformer.js";window.StyleTransformer=StyleTransformer;

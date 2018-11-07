@@ -1,0 +1,40 @@
+{
+  "entrypoint": "index.html",
+  "shell": "bower_components/owc-core-starter-kit/owc-core-starter-kit.html",
+  "fragments": [],
+  "sources": [
+    "images/**/*",
+    "bower_components/owc-*/**/*.png",
+    "bower_components/owc-*/**/*.wasm",
+    "bower_components/owc-*/**/*.js",
+    "bower_components/owc-*/**/*.data",
+    "index.html",
+    "bower_components/owc-core-starter-kit/owc-core-starter-kit.html"
+  ],
+  "extraDependencies": [
+    "bower_components/webcomponentsjs/*.js",
+    "owc-manifest.json",
+    "bower_components/webcomponentsjs/*.js"
+  ],
+  "builds": [
+    {
+      "bundle": true,
+      "js": {
+        "compile": false,
+        "minify": true
+      },
+      "css": {
+        "minify": true
+      },
+      "html": {
+        "minify": true
+      }
+    }
+  ],
+  "lint": {
+    "rules": [
+      "polymer-2"
+    ]
+  },
+  "moduleResolution": "node"
+}

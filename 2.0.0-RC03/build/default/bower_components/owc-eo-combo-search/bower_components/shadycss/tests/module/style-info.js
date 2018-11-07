@@ -1,0 +1,1 @@
+import StyleInfo from"../../src/style-info.js";window.StyleInfo=StyleInfo;

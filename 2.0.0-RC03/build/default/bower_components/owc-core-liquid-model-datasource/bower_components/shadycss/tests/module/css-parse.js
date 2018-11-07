@@ -1,0 +1,1 @@
+import*as CssParse from"../../src/css-parse.js";window.CssParse=CssParse;
